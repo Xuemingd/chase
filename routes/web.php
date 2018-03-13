@@ -12,9 +12,6 @@
 */
 
 Route::get('/', function () {
-
-//    $a = app('url')->asset('js/app.js','');
-//    print_r($a);die();
     return view('welcome');
 });
 
